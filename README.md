@@ -16,8 +16,8 @@
 
 ## About
 
-This repository contains my implementation of the **so_long** project at 42 School.  
-So_long is a 2D side-view(or top-view) game project that serves as an introduction to **graphics programming** and **game development** fundamentals.  
+This repository contains my implementation of the **so_long** project at 42 School.
+So_long is a 2D side-view(or top-view) game project that serves as an introduction to **graphics programming** and **game development** fundamentals.
 Built using **MinilibX** (42's custom graphics library), this project demonstrates core game development concepts including sprite animation, collision detection, map parsing, and event-driven programming.
 
 The player must collect all collectibles scattered throughout the map and escape through the exit, navigating through a maze-like environment while avoiding obstacles.
@@ -189,7 +189,7 @@ maps/complex.ber
 ## Controls
 
 - **W / ↑**: Move up
-- **A / ←**: Move left  
+- **A / ←**: Move left
 - **S / ↓**: Move down
 - **D / →**: Move right
 - **ESC**: Exit game
@@ -248,6 +248,13 @@ maps/complex.ber
 - ✅ Multiple level progression system
 
 
+## 📝 Related Articles
+
+Blog posts documenting the learning process and context behind this project:
+
+- 📝 [42 Piscine and Common Core: What I Learned](https://arthur-portfolio.com/en/blog/42-piscine-and-core-curriculum) — Reflections on 42 School's selection process and 2-year curriculum
+
+---
 ## Contact
 
 - **GitHub**: [@TuroTheReal](https://github.com/TuroTheReal)
