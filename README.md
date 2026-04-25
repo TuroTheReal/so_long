@@ -12,6 +12,8 @@
 - [Controls](#controls)
 - [Technical Highlights](#technical-highlights)
 - [42 School Standards](#42-school-standards)
+- [Related Articles](#-related-articles)
+- [Contact](#contact)
 
 
 ## About
@@ -60,9 +62,7 @@ make re
 ./so_long maps/map.ber
 
 # Example with different maps
-./so_long maps/simple.ber
-./so_long maps/medium.ber
-./so_long maps/complex.ber
+./so_long maps/big_map.ber
 ```
 
 ### Game Objective
@@ -174,16 +174,10 @@ Maps use the `.ber` format with the following specifications:
 - Only valid characters allowed (`0`, `1`, `P`, `C`, `E`)
 
 ### Example Maps
-```bash
-# Simple 5x5 map
-maps/simple.ber
 
-# Medium complexity with multiple paths
-maps/medium.ber
-
-# Complex maze with strategic collectible placement
-maps/complex.ber
-```
+The `maps/` directory contains:
+- `map.ber`, `big_map.ber` — playable maps
+- Various invalid maps for testing error handling (`map_empty.ber`, `no_exit.ber`, `not_rectangular.ber`, `not_reachable.ber`, etc.)
 
 
 ## Controls
